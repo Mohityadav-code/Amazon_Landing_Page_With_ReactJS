@@ -1,0 +1,29 @@
+.img-container {
+    position: relative;
+    display: none;
+}
+
+.img-fade {
+    height: 900px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: inherit;
+    background-image: linear-gradient(to bottom, transparent 0%, #cdcdcd 100%);
+}
+
+
+.Product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
